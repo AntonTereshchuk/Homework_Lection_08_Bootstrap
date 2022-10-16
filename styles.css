@@ -1,0 +1,49 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(fonts/JosefinSans.ttf);
+}
+
+html, body {
+    font-family: JosefinSans;
+    font-size: 18px;
+}
+
+.menu-item:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.text-color-gray {
+    color: #828282;
+}
+
+.text-color-black {
+    color: #070707;
+}
+
+hr {
+    border: 1px solid;
+}
+
+.name {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.common {
+    align-self: flex-end;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.language {
+    font-size: 0.9rem;
+    font-weight: 700;
+    transform: rotate(-90deg);
+    padding-top: 4.0rem;
+}
+
+.language:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
